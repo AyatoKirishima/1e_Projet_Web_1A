@@ -1,0 +1,46 @@
+body{
+    background-image:url('wood.jpg');
+    background-color: #cdcdcd;
+    color: #3f3f3f;
+}
+section{
+    background-color: rgba(220,220,220,0.5);
+}
+article{
+    background-color: (255,255,255,0.5);
+}
+li{
+    font-weight: bold;
+}
+header{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+#art1 figure{
+    display: inline-block;
+}
+#art1 img{
+    width:200px;
+}
+.gauche{
+    float: left;
+}
+video {
+	max-width: 50%;
+    height: auto;
+}
+#art2 img{
+    width: 400px;
+}
+figure{
+    text-align: center;
+}
+mark{
+    background-color: greenyellow;
+}
+a:hover{
+    text-decoration: none;
+    background-color: lightgray;
+    font-weight: bold;
+}

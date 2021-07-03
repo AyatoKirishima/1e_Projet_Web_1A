@@ -1,0 +1,136 @@
+body {
+    margin : 0px;
+    background-color:#cdcdcd;
+    width:100%;
+    background-image: url(../images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color : #3f3f3f;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif, Arial, Helvetica;
+} 
+
+section {
+    background-color: rgba(220, 220, 220, 0.5);
+    margin-left : 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    }
+
+.article {
+    background-color:rgba(255, 255, 255, 0.5);
+    width : 80%;
+    margin-left : 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+
+h1 {
+    font-family:nature,serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: nature;
+    src: url("../fonts/Nature\ Beauty\ Personal\ Use.ttf");
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    font-size: 20px;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+figcaption {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.iframe {
+    text-align: center;
+    display: block;
+    min-height: 300px;
+    width: 100%;
+}
+
+.menu {
+	position : fixed;
+	left:30px;
+	top :30px;
+	padding : 10px;
+	text-decoration : none;
+	color : #3f3f3f;
+    background-color : rgba(255,255,255,0.5);
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.top {
+    position : fixed;
+	right:30px;
+	bottom :30px;
+	padding : 10px;
+	text-decoration : none;
+	color : #3f3f3f;
+    background-color : rgba(255,255,255,0.5);
+    border-radius: 15px;
+    z-index: 2;
+}
+
+a:hover {
+    background-color: #3f3f3f;
+    color: #cdcdcd;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+footer {
+    text-align: center; 
+    background-color:rgba(255, 255, 255, 0.5);
+    width : 80%;
+    margin-left : 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+color {
+    background-color: #3f3f3f;
+    color : white;
+    border-radius: 5px;
+}

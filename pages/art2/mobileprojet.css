@@ -1,0 +1,131 @@
+body
+{
+	background: #428364;
+	font-family : Arial, sans-serif;
+	margin : 0;
+}
+
+header
+{
+	background-color: #2A5B0E;
+	color : white;
+	padding : 10px;
+	text-align : center;
+	border-bottom: solid 2px white;
+}
+
+header h1 {
+	margin : 0;
+	font-weight: lighter;
+}
+
+article a {
+	color : #577284;
+	display : block;
+	width : auto;
+}
+
+section{
+	padding : 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+article{
+	background : rgba( 255,  255,  255, 0.6);
+	border : 4px solid #577284;
+	margin : 10px 2% 10px 2%;
+	padding :  10px 2% 10px 2%;
+	text-align : justify;
+}
+
+}
+#artdeux h1 {
+	font-size: 1.4em;
+	border-bottom: 3px solid white;
+}
+.sec2 {
+	margin-top: 50px;
+	background: #3C8D8B;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	color: black;
+}
+header p {
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+footer
+{
+	background-color: #2A5B0E;
+	color : white;
+	padding : 10px;
+	text-align : center;
+	border-top: solid white 2px;
+}
+.top {
+	text-align: center;
+	color: grey;
+	font-size: 2em;
+}
+.sec1 {
+	background: #E0CDA9;
+	color: #577284;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+section h1 {
+	text-align: center;
+	font-size: 1.3em;
+	text-decoration: underline
+}
+.top2 {
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+}
+.top2a{
+	text-align: center;
+	color: grey;
+	font-size: 1.5em;
+	color: white;
+}
+.topa {
+	text-align: center;
+	color: grey;
+	font-size: 2em;
+	color: white;
+}
+
+.gauche {
+	max-width: 240px;
+	max-height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.droite {
+	max-width: 240px;
+	max-height: 150px;
+	float: right;
+	margin-left: 20px;
+}
+.centre {
+	max-width: 240px;
+	max-height: 150px;
+	float: center;
+}
+.centrepetr {
+	max-width: 240px;
+	max-height: 150px;
+	float: center;
+	border-radius: 100%;
+}
+.centrepetr {
+	max-width: 240px;
+	max-height: 150px;
+	float: right;
+	border-radius: 100%;
+}

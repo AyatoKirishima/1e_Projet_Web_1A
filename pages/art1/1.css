@@ -1,0 +1,74 @@
+Les couleurs utilisées sont :
+-    rgba(220,220,220,0.5) pour le fond de section
+-    rgba(255,255,255,0.5) soit blanc transparent pour le fond d’article
+-    #3f3f3f pour le texte
+-    #cdcdcd pour le fond du body
+-    Lightgray pour le survol du texte « Lire l’article »
+header {
+	background-color : #577284;
+	color : #3f3f3f;
+    text-align : center;
+}
+header nav a {
+	color : gray;
+    text-decoration : none;
+    }
+header nav li{
+        list-style-type: none;
+
+}
+body { 
+    background-color : #cdcd;
+    background-image:url('wood.jpg');
+    text-align: center;
+}
+	
+section {
+    background-color:rgba(220,220,220,0.5);
+	max-width: 1100px;
+    text-align: center;
+	background-repeat:no-repeat;
+    background-position:center center;
+    margin-left: 65px;
+}
+article a{
+		color : #577284;
+		text-decoration : #577284;
+	}
+article p {
+    text-align: justify;
+	margin:10px 2% 10px 2%;
+}
+figure img{
+    border-radius: 50%;
+}			
+figure {
+    text-align:center;
+}
+article {
+    background-color: rgba(255,255,255,0.6);
+	border-style: ridge;
+	border-width: 4px;
+	padding : 10px;
+	margin: 10px auto 10px auto;
+    border-color : lightblue;
+}
+h1{
+    border-bottom: 3px solid orange;
+}
+header ul{
+	list-style-type: none;
+	max-width : 1100px;
+	margin : 20px auto 10px auto;
+}
+
+header ul li{
+	display : inline-block;
+	width : 22%;
+}
+
+article a {
+	color : #577284;
+	display : block;
+    width : auto;
+}
