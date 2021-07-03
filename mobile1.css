@@ -1,0 +1,144 @@
+header {
+    background-color: rgba(63, 63, 63, 0.3);
+    padding : 15px;
+    background-image: url('PROJETWEB.FINAL.jpg');
+    background-size: 100%;
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    border-bottom: solid black 2px;
+    margin : 0px;
+    font-variant: small-caps;
+}
+
+header ul{
+	list-style-type: none;
+	max-width : 1100px;
+    margin : 30px auto 10px auto;
+}
+
+header ul li{
+	display : inline-block;
+    width : 22%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+header a:hover:after {
+    content : attr(data-hover);
+}
+
+body {
+    margin : 0px;
+    background-color:#cdcdcd;
+    width:100%;
+    background-image: url(images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color :#3f3f3f;
+    font-size: 20px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.section {
+    background-color:rgba(255, 255, 255, 0.5);
+    width : 90%;
+    margin-left : 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+}
+ 
+section {
+background-color: rgba(220, 220, 220, 0.5);
+margin-left : 70px;
+margin-right: 70px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 10px;
+}
+
+article {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+article p {
+    position: relative;
+    padding: 10px;
+}
+
+a {
+    border : lightgray solid 1px;
+    border-radius: 10px;
+    padding : 10px;
+    background-color: rgba(220, 220, 220, 0.5);
+    /* font-variant: small-caps; */
+    text-decoration: none;
+    color : rgba(63, 63, 63, 1);
+}
+
+a:hover {
+    color :lightgray;
+    text-decoration: underline;
+    background-color: rgb(49, 49, 49);
+}
+
+.button {
+    text-align : right;
+}
+
+h1 {
+    padding: 10px;
+    font-variant: small-caps;
+}
+
+p {
+    text-align: justify;
+}
+
+footer img {
+    height: 240px;
+    width: 240px;
+    border-radius : 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+figcaption {
+    font-variant: small-caps;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+}
+
+.top {
+    position : fixed;
+	right:30px;
+	bottom :30px;
+	padding : 10px;
+	text-decoration : none;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.pic {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.a {
+    border : none;
+    border-radius: 0px;
+    padding : 0px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.invisible {
+    color : rgba(255, 255, 255, 0)
+}
