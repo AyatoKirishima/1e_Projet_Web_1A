@@ -2,7 +2,7 @@
 
 ## Répartition des tâches
 
-Page d'accueil : MULLER Léane (Blue)
+Page d'accueil : MULLER Léane
 
 Article 1 : ZHANG Shihan
 
